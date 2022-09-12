@@ -30,6 +30,16 @@ int main() {
     enque(40);
     enque(50);
     display();
+    enque(60);
+    
+    deque(); 
+    deque();
+    display();
+    deque();
+    deque();
+    display();
+    deque();
+    display();
     deque();
     display();
     return 0;
