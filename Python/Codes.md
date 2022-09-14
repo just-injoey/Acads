@@ -1,5 +1,6 @@
 #Program 1
-#WAP to find distance between two coordinate points
+WAP to find distance between two coordinate points
+
 import math
 a=int(input("Enter x1: "))
 b=int(input("Enter x2: "))
@@ -10,19 +11,23 @@ if(a==b and c==d):
 else:
     d=((b-a)**2+(c-d)**2)**0.5
     print("Distance is ",d,"units")
+    
+#Output
 Enter x1: 5
 Enter x2: 69
 Enter y1: 4
 Enter y2: 5
 Distance is  64.00781202322104 units
+
+
 #Program 2
-#WAP to input marks from the user, calculate the percentage and display grade according to percentage.
+<!-- #WAP to input marks from the user, calculate the percentage and display grade according to percentage.
 # Percentage >= 90% : Grade A
 # Percentage >= 80% : Grade B
 # Percentage >= 70% : Grade C
 # Percentage >= 60% : Grade D
 # Percentage >= 40% : Grade E
-# Percentage < 40% : Grade F
+# Percentage < 40% : Grade F -->
     
 m=int(input("Enter Maths marks: "))
 P=int(input("Enter Physics marks: "))
@@ -42,6 +47,8 @@ elif(p>=40):
     print("\nGrade is E.")
 elif(p>40):
     print("\nGrade is F.")
+    
+#Output    
 Enter Maths marks: 50
 Enter Physics marks: 50
 Enter Chemistry marks: 50
@@ -49,8 +56,10 @@ Enter English marks: 50
 Percentage is 50%
 
 Grade is E.
+
+
 #Program 3
-#WAP to find maximum of three numbers
+<!-- #WAP to find maximum of three numbers -->
 
 a=int(input("Enter first number: "))
 b=int(input("Enter second number: "))
@@ -61,13 +70,16 @@ elif(b>a and b>c):
     print(b,"is the largest.")
 else:
     print(c, "is the largest.")
+    
+#Output
 Enter first number: 50
 Enter second number: 50
 Enter third number: 50
 50 is the largest.
-#Program 4
-#WAP in python that computes the real roots of a quadratic function.
 
+
+#Program 4
+<!-- #WAP in python that computes the real roots of a quadratic function.-->
 a=int(input("Enter value of a: "))
 b=int(input("Enter value of b: "))
 c=int(input("Enter value of c: "))
@@ -84,13 +96,16 @@ else:
     r1=-b/(2*a)
     print(r1,"is the root of the quadratic equation.")
     
+#Output
 Enter value of a: 1
 Enter value of b: -7
 Enter value of c: 10
 The roots are real.
 Roots of the quadratic equation are  5.0 and 2.0
+
+
 #Program 5
-#WAP in python to validate a triangle.
+<!-- #WAP in python to validate a triangle. -->
 
 a=float(input("Enter first angle: "))
 b=float(input("Enter second angle: "))
