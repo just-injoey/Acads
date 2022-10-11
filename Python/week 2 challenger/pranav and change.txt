@@ -1,0 +1,21 @@
+pranav and change 
+n=int(input(""))
+x1=n/100
+a=int(x1)
+n=n%100
+x2=n/50
+b=int(x2)
+n=n%50
+x3=n/10
+c=int(x3)
+n=n%10
+x4=n/5
+d=int(x4)
+n=n%5
+x5=n/2
+e=int(x5)
+n=n%2
+x6=n
+f=int(x6)
+k=int(a+b+c+d+e+f)
+print(k)

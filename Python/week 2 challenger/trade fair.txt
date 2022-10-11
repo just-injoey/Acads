@@ -1,0 +1,8 @@
+# You are using Python
+tot_attend=int(input())
+firstday=(2*tot_attend)/7
+secondday=2*firstday
+thirday=firstday/2
+print("Attendees on day 1 : ",int(firstday))
+print("Attendees on day 2 : ",int(secondday))
+print("Attendees on day 3 : ",int(thirday))

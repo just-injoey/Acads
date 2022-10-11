@@ -1,0 +1,5 @@
+lucky gifts
+# You are using Python
+a=int(input())
+b=(a/2)+1;
+print(int(b))

@@ -1,0 +1,15 @@
+#Total Expenses for the event
+brand=float(input())
+travel=float(input())
+food=float(input())
+logistics=float(input())
+total=brand+travel+food+logistics
+brandper=(brand/total)*100
+travelper=(travel/total)*100
+foodper=(food/total)*100
+logiper=(logistics/total)*100
+print("{:.2f}".format(total))
+print("{:.2f}%".format(brandper))
+print("{:.2f}%".format(travelper))
+print("{:.2f}%".format(foodper))
+print("{:.2f}%".format(logiper))
