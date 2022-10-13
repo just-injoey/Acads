@@ -1,25 +1,20 @@
-# You are using Python
 n=int(input())
-z=30
-y=35
+d1=8
+d2=6
+s1=30
+s2=35
 if(n==1):
-    print(z,end=' ')
-elif(n==2):
-    print(z,end=' ')
-    print(y,end=' ')
+    print(s1)
+elif(n==1):
+    print(s1,s2,end=' ')
 else:
-    print(z,end=' ')
-    print(y,end=' ')
-    c=2
-    for i in range(1,(n//2)+1):
-        
-        print(z+8*(i),end=' ')
-        c=c+1
-        if(c==n):
-            break
-        print(y+6*(i),end=' ')
-        c=c+1
-        if(c==n):
-            break
-        z=z+8*(i)
-        y=y+6*(i)
+    print(s1,s2,end=' ')
+    for i in range(2,n):
+        if(i%2==0):
+            s1+=d1
+            d1+=8
+            print(s1,end=' ')
+        else:
+            s2+=d2
+            d2+=6
+            print(s2,end=' ')
