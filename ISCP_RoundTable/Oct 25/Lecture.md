@@ -2,15 +2,15 @@
 Tree is a non linear data structure which simulates a hierarchy.
 
 
-tree ka level zero se shuru hota hai
-height = num of edges from that particular node to its deepest descendant
-depth = num of edges from root node to that particular node
+tree ka level zero se shuru hota hai<br>
+height = num of edges from that particular node to its deepest descendant<br>
+depth = num of edges from root node to that particular node<br>
 
-for entire tree, height = depth;
-but a random node in tree, height != depth (in most cases)
+for entire tree, height = depth;<br>
+but a random node in tree, height != depth (in most cases)<br>
 
 
-leaves: the nodes which have no child are leaves
+leaves: the nodes which have no child are leaves<br>
 
 
 ## Types of trees:
@@ -42,3 +42,6 @@ but if we use TRY data structure then we can easily store it.
 -------------------------------------------------------------------------
 
 
+
+
+A, B, C, D, null, F, G, Null, I, Null ,Null,Null, Null, N, Null
