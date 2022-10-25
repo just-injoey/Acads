@@ -13,15 +13,27 @@ but a random node in tree, height != depth (in most cases)
 leaves: the nodes which have no child are leaves
 
 
-##Types of trees:
-1. Binary Tree: 
+## Types of trees:
+1. **Binary Tree:**<br>
           Every node will have at most 2 children(i.e., 0 or 1 or 2 children)
-
+### Three different tyes of Binary trees:
+1. Strict Binary Tree:<br>
+          Every node will have either zero or two children<br>
+2. Full Binary Tree:<br>
+           If Height of the Tree is 'h' then it should have (2^(h+1) - 1) nodes<br>
+           All leaves at same level<br>
+           All internal nodes(i.e., non leave nodes) must have 2 children<br>
+ 
+3. Complete Binary Tree:<br>
+           All leaves at h or h-1 level<br>
+           There shouldnt be missing sequence<br>
+           while insertion follow left to right order of any level<br>
 
 # PYQ of Infomatic(A product based company) interview:
 1. Find the diameter of a tree
--------------------------------------------------------------------------
 
+
+-------------------------------------------------------------------------
 TRY data structure 
 yeh data structure jo hai bahut jyada values ko store karne mai kaam aayega
 jaise ki ek dictionary hai, which has 1 million words, the other standard data structures ki aukkad nai hai
