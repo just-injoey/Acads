@@ -34,9 +34,9 @@ leaves: the nodes which have no child are leaves<br>
 
 
 -------------------------------------------------------------------------
-TRY data structure 
-yeh data structure jo hai bahut jyada values ko store karne mai kaam aayega
-jaise ki ek dictionary hai, which has 1 million words, the other standard data structures ki aukkad nai hai
-yeh store karne ki,
-but if we use TRY data structure then we can easily store it.
+TRY data structure <br>
+yeh data structure jo hai bahut jyada values ko store karne mai kaam aayega <br>
+jaise ki ek dictionary hai, which has 1 million words, the other standard data structures ki aukkad nai hai <br>
+yeh store karne ki, <br>
+but if we use TRY data structure then we can easily store it. <br>
 -------------------------------------------------------------------------
