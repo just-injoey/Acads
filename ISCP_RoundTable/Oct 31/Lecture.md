@@ -18,3 +18,6 @@ Length of a path: Total number of nodes in a path
 Sub tree: Every child node forms a sub tree on its parent node
 Size of a tree: Total number of nodes
 </pre>
+
+
+# Note: AVL Trees not in syllabus
