@@ -32,5 +32,22 @@ Preorder: A, B, D, C, E, G, F, H, I
 Inorder: D, B, A, E, G, C, H, F, I
 PostOrder: D, B, G, E, H, I, F, C, A
 Level order: A, B, C, D, E, F, G, H, I
+ 
+
+Question 3
+                      
+                      +
+                     /\
+                    *  c
+                   /\
+                  a  b
+
+
+
+Preorder: +, *, a, b, c
+Inorder: a, *, b, +, c
+PostOrder: a, b, *, c, +
+
+
 
 </pre>
