@@ -1,7 +1,7 @@
 Lecturer: Ravinder TT
 
 # Binary Tree Traversal
-
+<pre>
 PreOrder, InOrder, PostOrder traversals use Stack.
 Level Order Traversal uses Queue.
 
@@ -32,3 +32,5 @@ Preorder: A, B, D, C, E, G, F, H, I
 Inorder: D, B, A, E, G, C, H, F, I
 PostOrder: D, B, G, E, H, I, F, C, A
 Level order: A, B, C, D, E, F, G, H, I
+
+</pre>
