@@ -66,3 +66,6 @@ Create BST for the given array of values:
                         48
 ```
 
+
+# Note:Solve till question R of the Hackerrank questions before next class
+
