@@ -32,3 +32,10 @@ while(n>0):
     if n>0:
         m3+=1
         n-=1
+        p+=1
+    else:
+        break
+    if m3>=12:
+        n=n+8*(m3//12)
+        m3=m3%12
+print(""+str(p)+" times")
