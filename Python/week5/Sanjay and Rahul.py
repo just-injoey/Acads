@@ -1,0 +1,8 @@
+list1 = input().split()
+list2 = input().split()
+set1 = set(list1)
+set2 = set(list2)
+print(sorted(set1 & set2))
+print(sorted(set2.difference(set1)))
+set1.remove('green')
+print(sorted(set1))
