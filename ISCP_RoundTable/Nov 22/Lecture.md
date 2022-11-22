@@ -6,3 +6,12 @@ Left view, right view <br>
 top view, bottom view <br>
 least common ancestor <br>
 Sum of every path from root to every leaf <br>
+
+
+
+                         A
+                      /  |   \
+                     B   C    D
+                    /\   /   /|\
+                   E  F G   H I J                         \  /\
+                                
